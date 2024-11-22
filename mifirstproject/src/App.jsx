@@ -1,5 +1,6 @@
 import './App.css'
 import { Button } from './Button'
+import { Contador } from './Contador'
 import { Footer } from './Footer'
 import { Header } from './Header'
 import MovieList from './MovieList'
@@ -53,15 +54,11 @@ const Status=(props)=>{
   let status= (añoActual-añoInauguracion)>=2
   let skills=['HTML','CSS','JAVASCRIPT','REACT']
 
-function saludar() {
-    return alert('Hola 🐱‍👤')
-}
-
 const saluda=()=>{
   alert('hola')
 }
 
-
+let mensaje='Todos los derechos reservados 2024'
   return (
     <div>
       <Header datos={datos}/>
@@ -72,6 +69,9 @@ const saluda=()=>{
      {/* <MovieList peliculas={peliculas}/> */}
      <Skills skills={skills}/>
      <Button text='enviar' onClick={saluda} />
+      <Contador/>
+     <Footer mensaje={mensaje}/>
+     
     </div>      
   )
 }

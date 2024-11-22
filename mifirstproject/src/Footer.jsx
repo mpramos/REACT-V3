@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const Footer=()=>{
+export const Footer=({mensaje})=>{
     return (
-        <div>Footer</div>
+        <div>{mensaje}</div>
     )
 }
