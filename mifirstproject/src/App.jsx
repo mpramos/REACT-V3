@@ -73,7 +73,8 @@ let mensaje='Todos los derechos reservados 2024'
      <Button text='enviar' onClick={saluda} />
       <Contador/>
       <CatsDogs/>
-      <Data/>
+      {/* <Data/> */}
+      <MovieList/>
      <Footer mensaje={mensaje}/>
      
     </div>      
