@@ -108,6 +108,35 @@ const mostrarEmojis= emojis.map((emoji)=>emoji)
 console.log(mostrarEmojis);
 
 
+let bandera=true
+if (true) {
+    console.log('hola');
+    bandera=true
+    console.log(bandera);
+    
+} else {
+    console.log('adios');
+    bandera=false
+    console.log(bandera);
+}
+
+let saludo= false? 'hola' :'adios'
+console.log(saludo);
+let bandera1= true? true:false
+console.log(bandera1);
+
+// console.log(2===2);
+console.log('2'===2);
+console.log('2'==2);
+
+
+
+
+
+
+
+
+
 
 
 

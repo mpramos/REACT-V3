@@ -1,6 +1,8 @@
 import './App.css'
 import { Button } from './Button'
+import CatsDogs from './CatsDogs'
 import { Contador } from './Contador'
+import Data from './Data'
 import { Footer } from './Footer'
 import { Header } from './Header'
 import MovieList from './MovieList'
@@ -70,6 +72,8 @@ let mensaje='Todos los derechos reservados 2024'
      <Skills skills={skills}/>
      <Button text='enviar' onClick={saluda} />
       <Contador/>
+      <CatsDogs/>
+      <Data/>
      <Footer mensaje={mensaje}/>
      
     </div>      

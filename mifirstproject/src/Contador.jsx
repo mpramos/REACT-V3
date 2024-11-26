@@ -3,11 +3,20 @@ import React, { useState } from 'react'
 export const Contador = () => {
         const [cont,setCont]=useState(0)
 
-        const contar=()=>{
+        const sumar=()=>{
             setCont(cont+1)
+        }
+
+        const restar=()=>{
+          setCont(cont-1)
         }
     
   return (
-    <button onClick={contar}>{cont}</button>
+    <div >
+
+    <p>{cont}</p>
+    <button onClick={restar}>restar</button>
+    <button onClick={sumar}>sumar</button>
+    </div>
   )
 }
