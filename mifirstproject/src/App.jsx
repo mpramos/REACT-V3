@@ -1,11 +1,16 @@
 import './App.css'
+import Blur from './Blur'
+import Btn from './Btn'
 import { Button } from './Button'
 import CatsDogs from './CatsDogs'
 import { Contador } from './Contador'
 import Data from './Data'
 import { Footer } from './Footer'
+import Formulario from './FormularioChange'
 import { Header } from './Header'
+import MouseEnterLeave from './MouseEnterLeave'
 import MovieList from './MovieList'
+import OnKeyPress from './OnKeyPress'
 import { Pincipal } from './Pincipal'
 import { Skills } from './Skills'
 
@@ -76,7 +81,11 @@ let mensaje='Todos los derechos reservados 2024'
       {/* <Data/> */}
       <MovieList/>
      <Footer mensaje={mensaje}/>
-     
+     <Btn/>
+     <Formulario/>
+        <OnKeyPress/>
+        <MouseEnterLeave/>
+        <Blur/>
     </div>      
   )
 }
