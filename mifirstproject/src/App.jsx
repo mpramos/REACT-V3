@@ -7,6 +7,10 @@ import { Contador } from './Contador'
 import Data from './Data'
 import { Footer } from './Footer'
 import Formulario from './FormularioChange'
+import FormularioCheckBoxRadio from './FormularioCheckBoxRadio'
+import FormularioComplejo from './FormularioComplejo'
+import { FormularioSimple } from './FormularioSimple'
+import FormularioValidacion from './FormularioValidacion'
 import { Header } from './Header'
 import MouseEnterLeave from './MouseEnterLeave'
 import MovieList from './MovieList'
@@ -81,11 +85,15 @@ let mensaje='Todos los derechos reservados 2024'
       {/* <Data/> */}
       <MovieList/>
      <Footer mensaje={mensaje}/>
-     <Btn/>
+     {/* <Btn/>
      <Formulario/>
         <OnKeyPress/>
         <MouseEnterLeave/>
-        <Blur/>
+        <Blur/> */}
+        {/* <FormularioSimple/> */}
+        {/* <FormularioComplejo/> */}
+        {/* <FormularioCheckBoxRadio/> */}
+        <FormularioValidacion/>
     </div>      
   )
 }
